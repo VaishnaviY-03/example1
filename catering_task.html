@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourmet Catering</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+        }
+        nav{
+            color:black; 
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: larger;
+            position: fixed;
+            background-color: white;
+            height:50px;
+            width:100%;
+            padding-top: 10px;
+            z-index: 3;
+        }
+        nav a:hover{
+            background-color: rgb(217, 238, 231);
+        }
+        .img1{
+            height: 700px;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+        }
+        .p1{
+            position: absolute; top: 600px;
+            font-size: 40px;
+            padding-left: 20px;
+            z-index: 2;
+            color: rgb(96, 90, 90);
+        }
+        h2{
+            font-family:'Times New Roman';
+        }
+        .child1 img{
+            height: 600px;
+        }
+        .child1{
+            display: inline-block;
+            padding-left: 200px;
+        }
+        .child2{
+            display: inline-block;
+            width: 500px;
+            padding-left: 100px;
+            font-size: 23px;
+            text-align: center;
+            padding-right: 50px;
+        }
+        .about{
+            
+        }
+        .menu1 h3,p{
+            padding-bottom: 25px;
+        }
+        .menu1{
+            display: inline-block;
+            font-size: large;
+            padding-left: 200px;
+            font-family: 'Arial';
+            
+        }
+        .menu2{
+            display: inline-block;
+            padding-right: 50px;
+            padding-left: 150px;
+           
+        }
+        .contact{
+            padding-left: 200px;
+        }
+        input{
+            border: none; 
+            width: 80%;
+            height: 50px;
+            padding-bottom: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#" style="text-decoration: none; padding-right: 1050px;">Gourmet au Catering</a>
+        <a href="#" style="text-decoration: none; padding-right: 50px;">About</a>
+        <a href="#" style="text-decoration: none; padding-right: 50px;">Menu</a>
+        <a href="#" style="text-decoration: none; padding-right: 20px;">Contact</a>
+    </nav>
+    <img src="https://www.w3schools.com/w3images/hamburger.jpg" alt="Gourmet au Catering" class="img1">
+    <p class="p1">Le Catering</p>
+    <br><br><br><br><br><br><br><br>
+    <div class="container">
+        <div class="child1">
+            <img src="https://www.w3schools.com/w3images/tablesetting2.jpg" alt="img2">
+        </div>
+        <div class="child2">
+            <h2>About Catering</h2><br><br>
+            <p>Tradition since 1889</p><br>
+            <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use <span>seasonal</span> ingredients.</p>
+            <p style="color: rgb(157, 154, 154);">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+                 adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </div>
+    <br><br><br><br><center><hr style="color: rgb(170, 165, 165); width:60%; "></center> <br><br><br><br>
+    <div class="menu">
+        <div class="menu1">
+            <h2 style="text-align: center;">Our Menu</h2><br><br>
+            <h3>Bread Basket</h3>
+            <p>Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+            <h3>Honey Almond Granola with Fruits</h3>
+            <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+            <h3>Belgian Waffle</h3>
+            <p>Vanilla flavored batter with malted flour 7.50</p><br>
+            <h3>Scrambled eggs</h3>
+            <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+            <h3>Blueberry Pancakes</h3>
+            <p>With syrup, butter and lots of berries 8.50</p>
+        </div>
+        <div class="menu2">
+            <img src="https://www.w3schools.com/w3images/tablesetting.jpg" alt="Menu img" height="650px">
+        </div>
+    </div> <br><br><br><br> <center><hr style="color: rgb(170, 165, 165); width:60%; "></center> <br><br><br><br>
+    <div class="contact">
+        <h2>Contact</h2><br><br>
+        <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst
+             criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+             <h4>Catering Service, 42nd Living St, 43043 New York, NY</h4><br>
+             <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+             <form>
+                 <label for="name">Name</label>
+                 <input id="name" type="text" ><hr style="color: rgb(170, 165, 165); width:80%; ">
+                 <label for="people">How many people</label>
+                 <input id="people" type="number" ><hr style="color: rgb(170, 165, 165); width:80%; ">
+                 <label for="message">Message\Special Requirements</label>
+                 <input id="message" type="text" ><hr style="color: rgb(170, 165, 165); width:80%; ">
+                 <button style="margin-top: 2%; padding: 10px; width: 120px;">Send Message</button>
+             </form>
+
+    </div>
+</body>
+</html>
